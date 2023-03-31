@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adivinanumero.AdivinaNumeroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="ADIVIDA El NÚMERO"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Ingresa un Número entre 1 y 10"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="10sp"/>
+
+
+        <EditText
+            android:id="@+id/numIngresado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAdivinarNumero"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="52dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/Adivinar"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
